@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Redirect</title>
+    <style>
+        /* Reset the margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Styling for the body */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            color: #333;
+        }
+
+        /* Header styling */
+        h1 {
+            font-size: 3rem;
+            color: #262626;
+            margin-bottom: 20px;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+
+        /* Paragraph text below the header */
+        p {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        /* Image styling (Instagram Logo) */
+        .image {
+            width: 120px;  /* Set the width of the Instagram logo */
+            height: auto;  /* Maintain aspect ratio */
+            margin-bottom: 20px;
+        }
+
+        /* Button styling */
+        .button {
+            text-decoration: none;
+            padding: 15px 35px;
+            background-color: #3897f0; /* Instagram Blue */
+            color: white;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border: none;
+        }
+
+        /* Hover effect for the button */
+        .button:hover {
+            background-color: #2980b9;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            transform: scale(1.05);
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .button {
+                padding: 12px 28px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Instagram Logo/Image -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram Logo" class="image">
+
+    <h1>Welcome to My Instagram</h1>
+    <p>Click the button below to visit my Instagram profile:</p>
+    <a href="https://www.instagram.com/ayush_arya_777/" class="button" target="_blank">Go to Instagram</a>
+</body>
+</html>
